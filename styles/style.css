@@ -1,6 +1,10 @@
 /* Nav starts here --------- */
 #nav {
     padding-top: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .nav__wrapper {
@@ -30,3 +34,54 @@
 }
 
 /* nav Ends here  */
+
+/* heroBanner starts here  */
+#heroBanner {
+    background: url(../images/agenc-Banner\ 1.png) no-repeat center center/cover;
+}
+
+.overlay {
+    background: url(../images/Rectangle\ 625.png) no-repeat center center/cover;
+    padding: 315px 0px 176px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heroBanner__wrapper {
+    width: 950px;
+    height: 405px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.heroBanner__h1 {
+    width: 950px;
+    height: 180px;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 90px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.heroBanner__p {
+    color: white;
+}
+
+.heroBanner__button {
+    margin-top: 40px;
+}
+
+.heroBanner__pagination {
+    position: absolute;
+    bottom: -99px;
+    left: 46%;
+}
+
+/* heroBanner Ends here  */
