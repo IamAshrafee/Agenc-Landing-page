@@ -1,0 +1,25 @@
+:root {
+    --primary-color: #6A4DF4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+}

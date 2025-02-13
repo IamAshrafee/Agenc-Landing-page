@@ -1,20 +1,32 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Nav starts here --------- */
+#nav {
+    padding-top: 50px;
 }
 
-a {
-    text-decoration: none;
-    color: #000;
+.nav__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-li {
-    list-style: none;
+.nav__menu {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
 }
 
-.container {
-    max-width: 1320px;
-    margin: 0 auto;
-    padding: 0 20px;
+.nav__menuLink {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: white;
 }
+
+.nav__menuLink--active {
+    font-weight: 700;
+    color: #4756DF;
+}
+
+/* nav Ends here  */
