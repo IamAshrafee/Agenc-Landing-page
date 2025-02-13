@@ -85,3 +85,68 @@
 }
 
 /* heroBanner Ends here  */
+
+/* Our Success starts here  */
+#ourSuccess {
+    padding-top: 171px;
+}
+
+.ourSuccess__wrapper {
+    width: 100%;
+    border-radius: 20px;
+    background-color: #E0FFF9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 85px 50px;
+    align-items: center;
+}
+
+.ourSuccess__left {
+    display: flex;
+    flex-direction: column;
+}
+
+.ourSuccess__header {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: var(--primary-color);
+}
+
+.ourSuccess__description {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 42.36px;
+    letter-spacing: 0%;
+    color: #151515;
+    width: 387px;
+    height: 84px;
+
+}
+
+.ourSuccess__right {
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+}
+
+
+.ourSuccess__result {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60.51px;
+    letter-spacing: 0%;
+    color: #151515;
+}
+
+.ourSuccess__result__description {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #737373;
+}
+
+/* ourSuccess section ends here  */
