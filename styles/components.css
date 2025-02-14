@@ -8,7 +8,6 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 26px;
-    letter-spacing: 0%;
     text-align: center;
     cursor: pointer;
 }
@@ -18,7 +17,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    letter-spacing: 0%;
     text-align: center;
     color: #737373;
 }
@@ -28,7 +26,6 @@
     font-weight: 700;
     font-size: 45px;
     line-height: 54.46px;
-    letter-spacing: 0%;
     color: #151515;
 }
 
@@ -36,7 +33,6 @@
     font-weight: 700;
     font-size: 25px;
     line-height: 30.26px;
-    letter-spacing: 0%;
     text-align: center;
     color: #151515;
 }
