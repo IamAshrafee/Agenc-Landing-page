@@ -20,4 +20,32 @@
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
+    color: #737373;
+}
+
+/* section Header css */
+.sectionHeader {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54.46px;
+    letter-spacing: 0%;
+    color: #151515;
+}
+
+.h4__header {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30.26px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #151515;
+}
+
+/* Margin Classes */
+.marginTop--10 {
+    margin-top: 10px;
+}
+
+.marginTop--20 {
+    margin-top: 20px;
 }
