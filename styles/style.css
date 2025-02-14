@@ -423,6 +423,96 @@
 
 /* client Review ends here  */
 
+/* get quote Section starts here  */
+#getQuote {
+    padding: 150px 0px;
+    background-color: #F3F3F3;
+}
+
+.getQuote__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.getQuote__left {
+    display: flex;
+    flex-direction: column;
+}
+
+.getQuote__sectionHeader {
+    width: 470px;
+    height: 108px;
+
+}
+
+.getQuote__description {
+    width: 514px;
+    height: 78px;
+    text-align: left !important;
+}
+
+.getQuote__right {}
+
+.getQuote__formWrapper {
+    background-color: white;
+    border-radius: 20px;
+    padding: 62px 44px;
+}
+
+.getQuote__formHeader {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36.31px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.getQuote__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.getQuote__formLabel {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #151515;
+}
+
+.getQuote__formInput {
+    margin-bottom: 20px;
+    width: 450px;
+    height: 64px;
+    border-radius: 10px;
+    border-width: 1px;
+    border: 1px solid #E8E8E8;
+    padding: 19px 23px;
+    font-weight: 400;
+}
+
+.getQuote__formInput::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #D0D0D0;
+}
+
+.getQuote__button {
+    margin-top: 10px;
+    width: 100%;
+
+}
+
+/* get quote Section starts here  */
+
+
+
 /* Footer section starts here  */
 #footer {
     padding-top: 150px;
